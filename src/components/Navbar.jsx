@@ -9,7 +9,7 @@ export default function Navbar(){
           <div className="flex flex-row gap-1 items-center text-center justify-between flex-shrink ml-5">
   {/* Logo stays the same */}
   <div className="border-gray-200 md:w-10 md:h-10 xl:w-12 xl:h-12 rounded-full flex items-center justify-center">
-    <img src="../src/assets/images/cropped omose logo.png" alt="omose_logo" className="object-cover rounded-full" />
+    <img src="/src/assets/images/cropped omose logo.png" alt="omose_logo" className="object-cover rounded-full" />
   </div>
 
   {/* Text with subtle overlay */}
@@ -41,7 +41,7 @@ export default function Navbar(){
           <div className="absolute inset-0 bg-white rounded-sm blur-[1px] z-0 opacity-0.5"></div>
           <div className="flex flex-row gap-1 items-center text-center justify-between flex-shrink">
           <div className="border-gray-200 w-7 h-7 rounded-full flex items-center justify-center">
-              <img src="..\src\assets\images\cropped omose logo.png" alt="omose_logo" className="object-cover  rounded-full"/>
+              <img src="\src\assets\images\cropped omose logo.png" alt="omose_logo" className="object-cover  rounded-full"/>
             </div>
             <h1 className="text-sm font-bold whitespace-nowrap text-[#DB8C96] font-libre brand_name">ÒmoseCeutiques</h1>
           </div>

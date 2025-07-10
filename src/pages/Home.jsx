@@ -2,10 +2,10 @@ import { useState } from "react";
 import Navbar from "../components/Navbar";
 import LandingPage from "./LandingPage";
 import FAQItem from "../components/FAQItem";
-import backgroundImage1 from '../assets/images/woman_in_spa.png';
-import backgroundImage2 from '../assets/images/woman_holding_cream_landscape.png';
-import backgroundImage3 from '../assets/images/woman_in_spa(potrait).png';
-import backgroundImage4 from '../assets/images/woman with cream on her face.jpeg';
+import backgroundImage1 from '/assets/images/woman_in_spa.png';
+import backgroundImage2 from '/assets/images/woman_holding_cream_landscape.png';
+import backgroundImage3 from '/assets/images/woman_in_spa(potrait).png';
+import backgroundImage4 from '/assets/images/woman with cream on her face.jpeg';
 
 
 export default function Home() {
@@ -201,42 +201,42 @@ export default function Home() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-x-20 xl:gap-y-24 p-4 w-[99%] md:w-full max-w-7xl mx-auto text-center">
           <div className="text-center hover:cursor-pointer">
             <div className="shadow-md hover:shadow-lg transition-shadow duration-300 rounded-2xl">
-              <img src="../src/assets/images/product1.jpeg" alt="product_image" className="w-full rounded-2xl"/>
+              <img src="/src/assets/images/product1.jpeg" alt="product_image" className="w-full rounded-2xl"/>
             </div>
             <h2 className="text-base text-gray-800 xl:text-lg font-medium m-3">Bio-repair Rehydrating Serum</h2>
             <p className="text-gray-500 text-xs md:text-base">Content for Product 1.</p>
           </div>
           <div className="text-center hover:cursor-pointer">
             <div className="shadow-md hover:shadow-lg transition-shadow duration-300 mt-7 md:mt-0 rounded-2xl">
-              <img src="../src/assets/images/product2.jpeg" alt="product_image" className="object-contain rounded-2xl"/>
+              <img src="/src/assets/images/product2.jpeg" alt="product_image" className="object-contain rounded-2xl"/>
             </div>
             <h2 className="text-base text-gray-800 xl:text-lg font-medium m-3">Repair Face Milk</h2>
             <p className="text-gray-500 text-xs md:text-base">Content for Product 2.</p>
           </div>
           <div className="text-center hover:cursor-pointer">
             <div className="shadow-md hover:shadow-lg transition-shadow duration-300 mt-7 md:mt-0 rounded-2xl">
-              <img src="../src/assets/images/product3.jpeg" alt="product_image" className="object-contain rounded-2xl"/>
+              <img src="/src/assets/images/product3.jpeg" alt="product_image" className="object-contain rounded-2xl"/>
             </div>
             <h2 className="text-base text-gray-800 xl:text-lg font-medium m-3">Barrier Repair Toner</h2>
             <p className="text-gray-500 text-xs md:text-base">Content for Product 3.</p>
           </div>
           <div className="text-center hover:cursor-pointer">
             <div className="shadow-md hover:shadow-lg transition-shadow duration-300 mt-7 md:mt-0 rounded-2xl">
-              <img src="../src/assets/images/product4.jpeg" alt="product_image" className="object-contain rounded-2xl"/>
+              <img src="/src/assets/images/product4.jpeg" alt="product_image" className="object-contain rounded-2xl"/>
             </div>
             <h2 className="text-base text-gray-800 xl:text-lg font-medium m-3">Oily Skin Cleanser</h2>
             <p className="text-gray-500 text-xs md:text-base">Content for Product 4.</p>
           </div>
           <div className="text-center hover:cursor-pointer">
             <div className="shadow-md hover:shadow-lg transition-shadow duration-300 mt-7 md:mt-0 rounded-2xl">
-              <img src="../src/assets/images/product5.jpeg" alt="product_image" className="object-contain rounded-2xl"/>
+              <img src="/src/assets/images/product5.jpeg" alt="product_image" className="object-contain rounded-2xl"/>
             </div>
             <h2 className="text-base text-gray-800 xl:text-lg font-medium m-3">Facial Gel Cleanser (105g)</h2>
             <p className="text-gray-500 text-xs md:text-base">Content for Product 5.</p>
           </div>
           <div className="text-center hover:cursor-pointer mb-10">
             <div className="shadow-md hover:shadow-lg transition-shadow duration-300 mt-7 md:mt-0 rounded-2xl">
-              <img src="../src/assets/images/product6.jpeg" alt="product_image" className="object-contain rounded-2xl"/>
+              <img src="/src/assets/images/product6.jpeg" alt="product_image" className="object-contain rounded-2xl"/>
             </div>
             <h2 className="text-base text-gray-800 xl:text-lg font-medium m-3">Facial Gel Cleanser (280g)</h2>
             <p className="text-gray-500 text-xs md:text-base">Content for Product 6.</p>
@@ -426,7 +426,7 @@ export default function Home() {
     <div className="flex flex-col space-y-4 lg:w-[45%]">
       <div className="flex items-center space-x-3">
         <div className="w-12 h-12 rounded-full">
-          <img src="../src/assets/images/cropped omose logo.png" alt="Logo" className="w-full h-full object-cover rounded-full"/>
+          <img src="/src/assets/images/cropped omose logo.png" alt="Logo" className="w-full h-full object-cover rounded-full"/>
         </div>
         <span className="text-3xl lg:text-4xl font-semibold brand_name text-[#DB8C96]">ÒmoseCeutiques</span>
       </div>

@@ -371,7 +371,7 @@ export default function Home() {
       <input
         id="firstname"
         type="text"
-        className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-black"
+        className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-black form_input"
         placeholder="Enter your first name"
         required
       />
@@ -385,7 +385,7 @@ export default function Home() {
       <input
         id="lastname"
         type="text"
-        className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-black"
+        className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-black form_input"
         placeholder="Enter your last name"
         required
       />
@@ -400,7 +400,7 @@ export default function Home() {
       <input
         id="email"
         type="email"
-        className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-black"
+        className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-black form_input"
         placeholder="Enter your email address"
         required
       />
@@ -414,7 +414,7 @@ export default function Home() {
       <input
         id="message"
         type="textarea"
-        className="w-full px-4 py-15 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-black"
+        className="w-full px-4 py-15 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-black form_input"
         placeholder="What inquiry do you have?"
         required
       />

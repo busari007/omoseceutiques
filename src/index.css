@@ -20,6 +20,10 @@ body{
     font-style: italic;
 }
 
+.form_input{
+    background-color: #ffffff;
+}
+
 body{
     /* font-family: 'Libre Baskerville', serif; */
     /* font-family: 'Lora', serif; */

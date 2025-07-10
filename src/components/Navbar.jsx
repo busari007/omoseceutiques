@@ -41,10 +41,10 @@ export default function Navbar(){
         <nav className="md:hidden fixed flex flex-row items-center justify-between p-2 text-black m-0 w-full max-w-screen z-50 bg-transparent">
           <div className="absolute inset-0 bg-white rounded-sm blur-[1px] z-0 opacity-0.5"></div>
           <div className="flex flex-row gap-1 items-center text-center justify-between flex-shrink">
-          <div className="border-gray-200 w-7 h-7 rounded-full flex items-center justify-center">
+          <div className="border-gray-200 w-8 h-8 rounded-full flex items-center justify-center">
               <img src={logo} alt="omose_logo" className="object-cover  rounded-full"/>
             </div>
-            <h1 className="text-sm font-bold whitespace-nowrap text-[#DB8C96] font-libre brand_name">ÒmoseCeutiques</h1>
+            <h1 className="text-xl font-bold whitespace-nowrap text-[#DB8C96] font-libre brand_name">ÒmoseCeutiques</h1>
           </div>
 
           <div className="flex gap-4">

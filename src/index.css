@@ -29,24 +29,23 @@ body{
     /* font-family: 'Lora', serif; */
     font-family: 'Satoshi', sans-serif;
 }
-
-/* Slim, mostly transparent scrollbar for Webkit browsers */
+/* Completely invisible scrollbar for Webkit browsers */
 *::-webkit-scrollbar {
-    width: 1px;
-    background: transparent;
+    width: 0 !important;
+    height: 0 !important;
+    background: transparent !important;
 }
 
 *::-webkit-scrollbar-thumb {
-    background: rgba(0,0,0,0.08);
-    border-radius: 2px;
+    background: transparent !important;
 }
 
 *::-webkit-scrollbar-track {
-    background: transparent;
+    background: transparent !important;
 }
 
-/* Slim scrollbar for Firefox */
+/* Completely invisible scrollbar for Firefox */
 * {
-    scrollbar-width: thin;
-    scrollbar-color: rgba(0, 0, 0, 0.1) transparent;
+    scrollbar-width: none !important;
+    scrollbar-color: transparent transparent !important;
 }

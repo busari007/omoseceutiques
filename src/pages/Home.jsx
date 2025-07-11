@@ -8,11 +8,11 @@ import backgroundImage3 from '../assets/images/woman_in_spa(potrait).png';
 import backgroundImage4 from '../assets/images/woman with cream on her face.jpeg';
 import logo from "../assets/images/cropped omose logo.png";
 import product1 from "../assets/images/product1.jpeg";
-import product2 from "../assets/images/product1.jpeg";
-import product3 from "../assets/images/product1.jpeg";
-import product4 from "../assets/images/product1.jpeg";
-import product5 from "../assets/images/product1.jpeg";
-import product6 from "../assets/images/product1.jpeg";
+import product2 from "../assets/images/product2.jpeg";
+import product3 from "../assets/images/product3.jpeg";
+import product4 from "../assets/images/product4.jpeg";
+import product5 from "../assets/images/product5.jpeg";
+import product6 from "../assets/images/product6.jpeg";
 
 
 export default function Home() {
@@ -65,18 +65,18 @@ export default function Home() {
   }}>
     <div className="absolute inset-0 bg-black blur-[1px] z-0 opacity-23"></div>
       <span className="text-base sm:text-lg md:text-xl text-[#f3f2e6] text-left md:w-[40%] lg:w-[30%] xl:w-[40%]">
-        <h1 className="leading-12 xl:leading-20 header text-4xl xl:text-7xl mt-48">Glow naturally every day</h1>
+        <h1 className="leading-12 xl:leading-16 header text-4xl xl:text-7xl mt-36 mb-6">Glow naturally every day</h1>
         <p className="mb-4 mt-2 text-base xl:text-xl xl:w-[70%]">Discover our skincare essentials, crafted with love and powered by nature.</p>
         <button
       className="
        text-black
         border border-gray-300 rounded-lg bg-[#f3f2e6] 
-        px-4 py-3 xl:px-8 xl:py-6 z-30
-        text-base xl:text-2xl font-medium hover:cursor-pointer
+        px-4 py-3 xl:px-5 xl:py-4 z-30
+        text-base xl:text-[20px] font-medium hover:cursor-pointer header
       "
       style={{ maxWidth: "max-content" }}
     >
-      WEAR IT
+      Wear it
     </button>
         </span>
     </div>
@@ -112,12 +112,12 @@ export default function Home() {
               <button
                 className="
                   border border-gray-300 rounded-2xl bg-[#f3f2e6] text-black 
-                  px-4 py-3 z-30
-                  text-sm md:text-lg xl:text-2xl font-medium hover:cursor-pointer
+                  px-3 py-2 z-30
+                  text-sm md:text-lg xl:text-2xl font-medium hover:cursor-pointer header
                 "
                 style={{ maxWidth: "max-content" }}
               >
-                WEAR IT
+                Wear it
               </button>
             </span>
           </div>
@@ -126,7 +126,7 @@ export default function Home() {
 
         {/*Second Section*/}
       <div
-        className="hidden flex-1 md:flex flex-col justify-center items-center hover:cursor-pointer bg-[#f3f2e6] rounded-none">
+        className="hidden flex-1 md:flex flex-col justify-center items-center hover:cursor-pointer bg-[#f3f2e6] rounded-none h-[100vh]">
         <div className="relative w-full h-[100vh] m-0 p-0" >
           {/* Overlay */}
 
@@ -137,20 +137,20 @@ export default function Home() {
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',
   }}>
-    <div className="absolute inset-0 bg-black blur-[1px] z-0 opacity-20"></div>
+    <div className="absolute inset-0 bg-black blur-[1px] z-0 opacity-5"></div>
       <span className="text-base sm:text-lg md:text-xl text-[#f3f2e6] text-left md:w-[40%] lg:w-[40%] xl:w-[40%]">
-        <h1 className="leading-12 xl:leading-20 header text-4xl xl:text-7xl mt-48">The face cream your skin has been waiting for.</h1>
-        <p className="mb-4 mt-2 text-base xl:text-xl">Crafted for confidence. <br/> Powered by botanicals. <br/>Made for the face that tells <span className="font-bold"> your</span> story.</p>
+        <h1 className="leading-12 xl:leading-16 header text-4xl xl:text-6xl mt-30 mb-4">The face cream your skin has been waiting for.</h1>
+        <p className=" mt-2 text-base xl:text-xl mb-5">Crafted for confidence. <br/> Powered by botanicals. <br/>Made for the face that tells <span className="font-bold"> your</span> story.</p>
         <button
       className="
        text-black
         border border-gray-300 rounded-lg bg-[#f3f2e6] 
-        px-4 py-3 xl:px-8 xl:py-6 z-30
-        text-base xl:text-2xl font-medium hover:cursor-pointer
+        px-4 py-3 xl:px-3 xl:py-4 z-30
+        text-base xl:text-[20px] font-medium hover:cursor-pointer header
       "
       style={{ maxWidth: "max-content" }}
     >
-      SHOP NOW
+      Shop now
     </button>
         </span>
     </div>
@@ -180,18 +180,18 @@ export default function Home() {
               aria-hidden="true"
             />
             <span className="justify-end z-10 flex flex-col h-full text-[#f3f2e6] w-[80%] text-left p-6">
-              <div className="absolute inset-0 bg-black blur-[1px] z-0 opacity-22 rounded-2xl"></div>
+              <div className="absolute inset-0 bg-black blur-[1px] z-0 opacity-15 rounded-2xl"></div>
               <h1 className="text-3xl leading-9 header">The face cream your skin has been waiting for.</h1>
               <p className="text-xs mb-4 mt-3">Crafted for confidence. <br/> Powered by botanicals. <br/>Made for the face that tells <span className="font-bold"> your</span> story.</p>
               <button
                 className="
                   border border-gray-300 rounded-2xl bg-[#f3f2e6] text-black 
-                  px-4 py-3 z-30
-                  text-sm md:text-lg xl:text-2xl font-medium hover:cursor-pointer
+                  px-3 py-2 z-30
+                  text-sm md:text-lg xl:text-2xl font-medium hover:cursor-pointer header
                 "
                 style={{ maxWidth: "max-content" }}
               >
-                SHOP NOW
+                Shop now
               </button>
             </span>
           </div>

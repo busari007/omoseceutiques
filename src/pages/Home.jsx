@@ -8,11 +8,11 @@ import backgroundImage3 from '../assets/images/woman_in_spa(potrait).png';
 import backgroundImage4 from '../assets/images/woman with cream on her face.jpeg';
 import logo from "../assets/images/cropped omose logo.png";
 import product1 from "../assets/images/product1.jpeg";
-import product2 from "../assets/images/product1.jpeg";
-import product3 from "../assets/images/product1.jpeg";
-import product4 from "../assets/images/product1.jpeg";
-import product5 from "../assets/images/product1.jpeg";
-import product6 from "../assets/images/product1.jpeg";
+import product2 from "../assets/images/product2.jpeg";
+import product3 from "../assets/images/product3.jpeg";
+import product4 from "../assets/images/product4.jpeg";
+import product5 from "../assets/images/product5.jpeg";
+import product6 from "../assets/images/product6.jpeg";
 
 
 export default function Home() {
@@ -65,18 +65,18 @@ export default function Home() {
   }}>
     <div className="absolute inset-0 bg-black blur-[1px] z-0 opacity-23"></div>
       <span className="text-base sm:text-lg md:text-xl text-[#f3f2e6] text-left md:w-[40%] lg:w-[30%] xl:w-[40%]">
-        <h1 className="leading-12 xl:leading-20 header text-4xl xl:text-7xl mt-48">Glow naturally every day</h1>
+        <h1 className="leading-5 xl:leading-15 header text-4xl xl:text-7xl mt-48 mb-5">Glow naturally every day</h1>
         <p className="mb-4 mt-2 text-base xl:text-xl xl:w-[70%]">Discover our skincare essentials, crafted with love and powered by nature.</p>
         <button
       className="
        text-black
         border border-gray-300 rounded-lg bg-[#f3f2e6] 
-        px-4 py-3 xl:px-8 xl:py-6 z-30
-        text-base xl:text-2xl font-medium hover:cursor-pointer
+        px-4 py-[10px] z-30
+        text-base xl:text-[22px] font-medium hover:cursor-pointer
       "
       style={{ maxWidth: "max-content" }}
     >
-      WEAR IT
+      Wear It
     </button>
         </span>
     </div>
@@ -107,7 +107,7 @@ export default function Home() {
             />
             <div className="absolute inset-0 bg-black blur-[1px] z-0 opacity-15 rounded-2xl"></div>
             <span className="justify-end z-10 flex flex-col h-full text-base sm:text-lg md:text-xl text-[#f3f2e6] w-[80%] p-7">
-              <h1 className="text-4xl leading-11 header">Glow naturally every day</h1>
+              <h1 className="text-4xl leading-5 header">Glow naturally every day</h1>
               <p className="text-xs mb-4 mt-2">Discover our skincare essentials, crafted with love and powered by nature.</p>
               <button
                 className="
@@ -127,7 +127,7 @@ export default function Home() {
         {/*Second Section*/}
       <div
         className="hidden flex-1 md:flex flex-col justify-center items-center hover:cursor-pointer bg-[#f3f2e6] rounded-none">
-        <div className="relative w-full h-[100vh] m-0 p-0" >
+        <div className="relative w-full h-[100vh] m-0 p-0">
           {/* Overlay */}
 
     {/* Content */}
@@ -139,7 +139,7 @@ export default function Home() {
   }}>
     <div className="absolute inset-0 bg-black blur-[1px] z-0 opacity-20"></div>
       <span className="text-base sm:text-lg md:text-xl text-[#f3f2e6] text-left md:w-[40%] lg:w-[40%] xl:w-[40%]">
-        <h1 className="leading-12 xl:leading-20 header text-4xl xl:text-7xl mt-48">The face cream your skin has been waiting for.</h1>
+        <h1 className="leading-12 xl:leading-18 header text-4xl xl:text-7xl mt-48">The face cream your skin has been waiting for.</h1>
         <p className="mb-4 mt-2 text-base xl:text-xl">Crafted for confidence. <br/> Powered by botanicals. <br/>Made for the face that tells <span className="font-bold"> your</span> story.</p>
         <button
       className="
@@ -360,67 +360,73 @@ export default function Home() {
         </div>
 
   {/* Form Field */}
-  <form className="flex flex-col w-full max-w-xl xl:max-w-[60%] p-6 mt-7 lg:mt-0 bg-[#f3f2e6] md:bg-white border border-gray-200 rounded-xl shadow-sm space-y-4 mx-auto">
+  <form
+  action="https://formsubmit.co/sophiassecretsng@gmail.com" 
+  method="POST"
+  className="flex flex-col w-full max-w-xl xl:max-w-[60%] p-6 mt-7 lg:mt-0 bg-[#f3f2e6] md:bg-white border border-gray-200 rounded-xl shadow-sm space-y-4 mx-auto"
+>
   <div className="flex flex-col md:flex-row gap-4 w-full">
-    
-    {/* Firstname Field */}
     <div className="flex flex-col w-full">
       <label htmlFor="firstname" className="mb-1 text-sm lg:text-base xl:text-lg font-medium text-gray-700">
         Firstname
       </label>
       <input
         id="firstname"
+        name="firstname"
         type="text"
-        className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-black form_input"
+        className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-black"
         placeholder="Enter your first name"
         required
       />
     </div>
 
-    {/* Lastname Field */}
     <div className="flex flex-col w-full">
       <label htmlFor="lastname" className="mb-1 text-sm lg:text-base xl:text-lg font-medium text-gray-700">
         Lastname
       </label>
       <input
         id="lastname"
+        name="lastname"
         type="text"
-        className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-black form_input"
+        className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-black"
         placeholder="Enter your last name"
         required
       />
     </div>
   </div>
 
-  {/*Email Field*/}
-     <div className="flex flex-col w-full">
-      <label htmlFor="lastname" className="mb-1 text-sm lg:text-base xl:text-lg font-medium text-gray-700">
-        Email Address
-      </label>
-      <input
-        id="email"
-        type="email"
-        className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-black form_input"
-        placeholder="Enter your email address"
-        required
-      />
-    </div>
+  <div className="flex flex-col w-full">
+    <label htmlFor="email" className="mb-1 text-sm lg:text-base xl:text-lg font-medium text-gray-700">
+      Email Address
+    </label>
+    <input
+      id="email"
+      name="email"
+      type="email"
+      className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-black"
+      placeholder="Enter your email address"
+      required
+    />
+  </div>
 
-    {/*Message Field*/}
-     <div className="flex flex-col w-full">
-      <label htmlFor="lastname" className="mb-1 text-sm lg:text-base xl:text-lg font-medium text-gray-700">
-        Message
-      </label>
-      <input
-        id="message"
-        type="textarea"
-        className="w-full px-4 py-15 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-black form_input"
-        placeholder="What inquiry do you have?"
-        required
-      />
-    </div>
+  <div className="flex flex-col w-full">
+    <label htmlFor="message" className="mb-1 text-sm lg:text-base xl:text-lg font-medium text-gray-700">
+      Message
+    </label>
+    <textarea
+      id="message"
+      name="message"
+      className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-black"
+      placeholder="What inquiry do you have?"
+      required
+    />
+  </div>
 
-    <input type="submit" className="text-sm md:text-lg xl:text-xl text-[#f3f2e6] px-7 py-2 xl:px-14 xl:py-3 font-semibold bg-[#DB8C96] mx-auto rounded-3xl shadow-2xl focus:outline-none focus:ring-2 focus:ring-black hover:cursor-pointer hover:bg-[#dd7d8a] transition-colors duration-300"/>
+  <input 
+    type="submit" 
+    value="Send Message"
+    className="text-sm md:text-lg xl:text-xl text-[#f3f2e6] px-7 py-2 xl:px-14 xl:py-3 font-semibold bg-[#DB8C96] mx-auto rounded-3xl shadow-2xl focus:outline-none focus:ring-2 focus:ring-black hover:cursor-pointer hover:bg-[#dd7d8a] transition-colors duration-300"
+  />
 </form>
 
       </div>

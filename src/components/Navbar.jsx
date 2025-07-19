@@ -6,7 +6,7 @@ export default function Navbar(){
 
   return(
     <div className="max-w-screeen">
-    <nav className="hidden md:flex md:flex-row items-center justify-between p-1 text-gray-800 -mt-1 w-full max-w-screen fixed z-50 bg-transparent">
+    <nav className="hidden md:flex md:flex-row items-center justify-between p-1 text-gray-800 -mt-1 w-full max-w-screen fixed z-50 bg-transparent m-4">
           <div className="flex flex-row gap-1 items-center text-center justify-between flex-shrink ml-5">
   {/* Logo stays the same */}
   <div className="border-gray-200 md:w-10 md:h-10 xl:w-12 xl:h-12 rounded-full flex items-center justify-center">

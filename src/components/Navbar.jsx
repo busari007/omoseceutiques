@@ -1,41 +1,63 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import logo from "../assets/images/cropped omose logo.png";
 
 export default function Navbar(){
      const [isOpen, setIsOpen] = useState(false);
+     const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const offset = window.scrollY;
+      setScrolled(offset > 500); // Trigger after 500px
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   return(
     <div className="max-w-screeen">
-    <nav className="hidden md:flex md:flex-row items-center justify-between p-1 text-gray-800 -mt-1 w-full max-w-screen fixed z-50 bg-transparent m-4">
-          <div className="flex flex-row gap-1 items-center text-center justify-between flex-shrink ml-5">
-  {/* Logo stays the same */}
-  <div className="border-gray-200 md:w-10 md:h-10 xl:w-12 xl:h-12 rounded-full flex items-center justify-center">
-    <img src={logo} alt="omose_logo" className="object-cover rounded-full" />
-  </div>
-
-  {/* Text with subtle overlay */}
-  <div className="relative">
-    {/* Overlay behind text only */}
-    <h1 className="relative z-10 text-base md:text-xl xl:text-3xl font-light whitespace-nowrap text-[#DB8C96] font-libre brand_name">
-      {/* <div className="absolute inset-0 bg-white rounded-sm blur-[1px] z-0 opacity-3"></div> */}
-      ÒmoseCeutiques
-    </h1>
-  </div>
-</div>
-        <div className="hidden md:flex md:flex-row gap-5 xl:gap-16 text-sm xl:text-lg font-semibold justify-between items-center w-full md:p-6 md:w-auto mt-2">
-          <div className="absolute inset-0 bg-white rounded-sm blur-[1px] -z-10 opacity-0.5"></div>
-          <a className="hover:text-blue-600 hover:cursor-pointer whitespace-nowrap">About Us</a>
-          <a
-            href="#products"
-            className="hover:text-blue-600 hover:cursor-pointer whitespace-nowrap"
-          >
-            Products
-          </a>
-          <a 
-          href="#contact_us"
-          className="hover:text-blue-600 hover:cursor-pointer whitespace-nowrap">Contact Us</a>
+   <nav
+      className={`hidden md:flex md:flex-row items-center justify-between w-full max-w-screen fixed z-50 transition-all duration-1000 ease-in-out ${
+        scrolled ? "bg-white" : "bg-transparent"
+      }`}
+    >
+      {/* Logo & Brand */}
+      <div className="flex flex-row gap-1 items-center text-center justify-between flex-shrink ml-5">
+        <div className="border-gray-200 md:w-10 md:h-10 xl:w-12 xl:h-12 rounded-full flex items-center justify-center">
+          <img src={logo} alt="omose_logo" className="object-cover rounded-full" />
         </div>
-      </nav>
+        <div className="relative">
+          <h1 className="relative z-10 text-base md:text-xl xl:text-3xl font-light whitespace-nowrap text-[#DB8C96] font-libre brand_name">
+            ÒmoseCeutiques
+          </h1>
+        </div>
+      </div>
+
+      {/* Nav Links */}
+      <div
+        className={`hidden md:flex md:flex-row gap-5 xl:gap-16 text-sm xl:text-base font-semibold justify-between items-center w-full md:p-6 md:w-auto mt-2 transition-all duration-500 ${
+          scrolled ? "text-gray-800" : "text-gray-300"
+        }`}
+      >
+        <div className="absolute inset-0 bg-white rounded-sm blur-[1px] -z-10 opacity-0.5"></div>
+        <a className="hover:underline transition-all duration-200 hover:cursor-pointer whitespace-nowrap">
+          About Us
+        </a>
+        <a
+          href="#products"
+          className="hover:underline transition-all duration-200 hover:cursor-pointer whitespace-nowrap"
+        >
+          Products
+        </a>
+        <a
+          href="#contact_us"
+          className="hover:underline transition-all duration-200 hover:cursor-pointer whitespace-nowrap"
+        >
+          Contact Us
+        </a>
+      </div>
+    </nav>
 
         {/* Mobile Navbar*/}
         <nav className="md:hidden fixed flex flex-row items-center justify-between p-2 text-black m-0 w-full max-w-screen z-50 bg-transparent">
@@ -44,7 +66,7 @@ export default function Navbar(){
           <div className="border-gray-200 w-8 h-8 rounded-full flex items-center justify-center">
               <img src={logo} alt="omose_logo" className="object-cover  rounded-full"/>
             </div>
-            <h1 className="text-xl font-bold whitespace-nowrap text-[#DB8C96] font-libre brand_name">ÒmoseCeutiques</h1>
+            <h1 className="text-lg font-bold whitespace-nowrap text-[#DB8C96] font-libre brand_name">ÒmoseCeutiques</h1>
           </div>
 
           <div className="flex gap-4">

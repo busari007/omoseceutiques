@@ -4,11 +4,15 @@ import logo from "../assets/images/cropped omose logo.png";
 export default function Navbar(){
      const [isOpen, setIsOpen] = useState(false);
      const [scrolled, setScrolled] = useState(false);
+     const [textScrolled, setTextScrolled] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
+      // Get the current scroll position
       const offset = window.scrollY;
-      setScrolled(offset > 500); // Trigger after 500px
+
+      setScrolled(offset > 10); // Trigger after 1000px height is scrolled
+      setTextScrolled(offset > 10); //Change text color after 1000px height is scrolled
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -18,9 +22,9 @@ export default function Navbar(){
   return(
     <div className="max-w-screeen">
    <nav
-      className={`hidden md:flex md:flex-row items-center justify-between w-full max-w-screen fixed z-50 transition-all duration-1000 ease-in-out ${
-        scrolled ? "bg-white" : "bg-transparent"
-      }`}
+      className={`hidden md:flex md:flex-row items-center justify-between w-full max-w-screen fixed z-50 transition-colors duration-1000 ease-in-out 
+        ${ scrolled ? "bg-white" : "bg-transparent"}
+        `}
     >
       {/* Logo & Brand */}
       <div className="flex flex-row gap-1 items-center text-center justify-between flex-shrink ml-5">
@@ -36,14 +40,14 @@ export default function Navbar(){
 
       {/* Nav Links */}
       <div
-        className={`hidden md:flex md:flex-row gap-5 xl:gap-16 text-sm xl:text-base font-semibold justify-between items-center w-full md:p-6 md:w-auto mt-2 transition-all duration-500 ${
-          scrolled ? "text-gray-800" : "text-gray-300"
+        className={`hidden md:flex md:flex-row gap-5 xl:gap-16 text-sm xl:text-base font-semibold justify-between items-center w-full md:p-6 md:w-auto mt-2 transition-colors duration-300 ${
+          textScrolled ? "text-gray-800" : "text-gray-300"
         }`}
       >
         <div className="absolute inset-0 bg-white rounded-sm blur-[1px] -z-10 opacity-0.5"></div>
-        <a className="hover:underline transition-all duration-200 hover:cursor-pointer whitespace-nowrap">
+        {/* <a className="hover:underline transition-all duration-200 hover:cursor-pointer whitespace-nowrap">
           About Us
-        </a>
+        </a> */}
         <a
           href="#products"
           className="hover:underline transition-all duration-200 hover:cursor-pointer whitespace-nowrap"
@@ -93,7 +97,7 @@ export default function Navbar(){
           isOpen ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-4 pointer-events-none'
         }`}
       >
-        <a href="#about_us" className="whitespace-nowrap">About Us</a>
+        {/* <a href="#about_us" className="whitespace-nowrap">About Us</a> */}
         <a href="#products" className="whitespace-nowrap">Products</a>
         <a href="#contact_us" className="whitespace-nowrap">Contact Us</a>
       </div>

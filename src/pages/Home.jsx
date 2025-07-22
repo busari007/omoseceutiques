@@ -362,7 +362,7 @@ export default function Home() {
             </div>
           </div>
           <div className="flex flex-row gap-2 items-center mb-4">
-            <div className="border border-gray-300 w-14 h-16 md:w-18 md:h-18 lg:w-18 lg:h-18 rounded-2xl p-2 flex items-center justify-center bg-white">
+            <div className="border border-gray-300 w-14 h-16 md:w-18 md:h-18 lg:w-15 lg:h-18 rounded-2xl p-2 flex items-center justify-center bg-white">
               <img src="https://cdn.prod.website-files.com/676d87378093040ba9ee597e/677fee12ab16541469375ea0_scale-comparison-alt.svg" alt="_icon" className="object-contain w-9 h-9"/>
             </div>
             <div className="flex flex-col gap-y-2">

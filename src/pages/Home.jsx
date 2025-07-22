@@ -13,37 +13,35 @@ import product3 from "../assets/images/product3.jpeg";
 import product4 from "../assets/images/product4.jpeg";
 import product5 from "../assets/images/product5.jpeg";
 import product6 from "../assets/images/product6.jpeg";
+import cream_on_hands from "../assets/images/cream_on_hands.png";
 
 
 export default function Home() {
 
   const faqs = [
     {
-      question: "What skin types are your products suitable for?",
+      question: "Will the products bleach me?",
       answer:
-        "Our products are carefully formulated to be inclusive and effective for all skin types, including sensitive, oily, dry, and combination skin. Each product page includes specific details to help you find the perfect match for your needs.",
+        "Òmose products don't bleach or whiten. Rather, the products lighten/brighten to within your natural limits. This is because of the presence of exfoliants like lactic acid, brighteners like niacinamide and ingredients that inhibit melanin production like licorice root extract. \nTherefore light skinned Africans will remain light skinned whilst dark skinned Africans will remain dark skinned.",
     },
     {
-      question: "Are your products cruelty-free and vegan?",
+      question: "Do Òmose products darken?",
       answer:
-        "Yes! All Òmose Skincare products are 100% cruelty-free, and many are vegan-friendly. We’re committed to ethical practices and never test on animals.",
+        "Òmose products are more focused on hydrating the skin, restoring/improving the skin's barrier functions are helping to regulate sebum production. \nAs a result, they don't change skin colour. Naturally light skinned Africans won't be made darker and dark skinned Africans won't be made light.",
     },
     {
-      question: "How do I choose the right product for my skin?",
+      question: "What are the side effects; acne breakouts for example?",
       answer:
-        "We provide tailored consultancy to help you choose the right products for your skin. With clear, in-depth descriptions, you’ll feel confident in every purchase.",
+        "No negative side effects have been recorded from consistent use of Òmose products.\nFirst time users especially those with allergies are encouraged to patch test products before applying. Users with historically reactive skin who opt for the full Òmose routine are advised to ease into it by staggering the implementation of the routine.\nThis is achieved by beginning the routine one product at a time and leaving a gap of 3-4 weeks before another product in the kit is adopted into the routine.",
     },
     {
-      question: "What ingredients do you use?",
+      question: "Must I use all the products?",
       answer:
-        "We use high-quality, natural ingredients known for their effectiveness and safety. Each product page lists all ingredients, and we prioritize clean, non-toxic formulations free from harmful chemicals.",
-    },
-    {
-      question: "Do you offer international shipping?",
-      answer:
-        "We currently ship across Nigeria and are working on expanding to international locations soon.",
+        "No you mustn't but whatever product(s) you choose to incorporate into your routine must be used consistently and as specified.",
     },
   ];
+
+  const [product, setProduct] = useState(false);
 
   return (
     <div className="flex flex-col max-w-screeen">
@@ -64,8 +62,8 @@ export default function Home() {
     backgroundRepeat: 'no-repeat',
   }}>
     <div className="absolute inset-0 bg-black blur-[1px] z-0 opacity-23"></div>
-      <span className="text-base sm:text-lg md:text-xl text-[#f3f2e6] text-left md:w-[40%] lg:w-[30%] xl:w-[40%]">
-        <h1 className="leading-12 xl:leading-16 header text-4xl xl:text-7xl mt-36 mb-6">Glow naturally every day</h1>
+      <span className="text-base sm:text-lg md:text-xl text-[#f3f2e6] text-left md:w-[50%] lg:w-[37%] xl:w-[40%]">
+        <h1 className="leading-11 xl:leading-16 header text-5xl xl:text-7xl mt-36 mb-4 xl:mb-6">Glow naturally everyday</h1>
         <p className="mb-4 mt-2 text-base xl:text-xl xl:w-[70%]">Discover our skincare essentials, crafted with love and powered by nature.</p>
         <button
       className="
@@ -106,14 +104,14 @@ export default function Home() {
               aria-hidden="true"
             />
             <div className="absolute inset-0 bg-black blur-[1px] z-0 opacity-15 rounded-2xl"></div>
-            <span className="justify-end z-10 flex flex-col h-full text-base sm:text-lg md:text-xl text-[#f3f2e6] w-[80%] p-7">
-              <h1 className="text-4xl leading-5 header">Glow naturally every day</h1>
-              <p className="text-xs mb-4 mt-2">Discover our skincare essentials, crafted with love and powered by nature.</p>
+            <span className="justify-end z-10 flex flex-col h-full text-base sm:text-lg md:text-xl text-[#f3f2e6] w-[90%] p-7">
+              <h1 className="text-3xl leading-8 header">Glow naturally everyday</h1>
+              <p className="text-[11px] mb-4 mt-2">Discover our skincare essentials, crafted with love and powered by nature.</p>
               <button
                 className="
                   border border-gray-300 rounded-2xl bg-[#f3f2e6] text-black 
                   px-3 py-2 z-30
-                  text-sm md:text-lg xl:text-2xl font-medium hover:cursor-pointer header
+                  text-[13px] font-medium hover:cursor-pointer header
                 "
                 style={{ maxWidth: "max-content" }}
               >
@@ -131,14 +129,14 @@ export default function Home() {
           {/* Overlay */}
 
     {/* Content */}
-    <div className="relative z-20 flex text-right items-center md:p-7 xl:p-11 w-full h-full rounded-2xl md:rounded-none" style={{
+    <div className="relative z-20 flex items-center md:p-7 xl:p-11 w-full h-full rounded-2xl md:rounded-none border border-black justify-end" style={{
     backgroundImage: `url(${backgroundImage2})`,
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',
   }}>
-    <div className="absolute inset-0 bg-black blur-[1px] z-0 opacity-5"></div>
-      <span className="text-base sm:text-lg md:text-xl text-[#f3f2e6] text-left md:w-[40%] lg:w-[40%] xl:w-[40%]">
+    <div className="absolute inset-0 bg-black blur-[1px] z-0 opacity-10 lg:opacity-6"></div>
+      <span className="text-base sm:text-lg md:text-xl text-[#f3f2e6] text-right md:w-[60%] lg:w-[50%] xl:w-[50%]">
         <h1 className="leading-12 xl:leading-16 header text-4xl xl:text-6xl mt-30 mb-4">The face cream your skin has been waiting for.</h1>
         <p className=" mt-2 text-base xl:text-xl mb-5">Crafted for confidence. <br/> Powered by botanicals. <br/>Made for the face that tells <span className="font-bold"> your</span> story.</p>
         <button
@@ -181,13 +179,13 @@ export default function Home() {
             />
             <span className="justify-end z-10 flex flex-col h-full text-[#f3f2e6] w-[80%] text-left p-6">
               <div className="absolute inset-0 bg-black blur-[1px] z-0 opacity-15 rounded-2xl"></div>
-              <h1 className="text-3xl leading-9 header">The face cream your skin has been waiting for.</h1>
-              <p className="text-xs mb-4 mt-3">Crafted for confidence. <br/> Powered by botanicals. <br/>Made for the face that tells <span className="font-bold"> your</span> story.</p>
+              <h1 className="text-3xl leading-[31px] header">The face cream your skin has been waiting for.</h1>
+              <p className="text-[11px] mb-4 mt-3">Crafted for confidence. <br/> Powered by botanicals. <br/>Made for the face that tells <span className="font-bold"> your</span> story.</p>
               <button
                 className="
                   border border-gray-300 rounded-2xl bg-[#f3f2e6] text-black 
                   px-3 py-2 z-30
-                  text-sm md:text-lg xl:text-2xl font-medium hover:cursor-pointer header
+                  text-[13px] font-medium hover:cursor-pointer header
                 "
                 style={{ maxWidth: "max-content" }}
               >
@@ -206,13 +204,61 @@ export default function Home() {
           <p className="text-sm md:text-base xl:text-lg font-extralight">Shop our drops & everyone’s favourites.</p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-x-20 xl:gap-y-24 p-4 w-[99%] md:w-full max-w-7xl mx-auto text-center">
-          <div className="text-center hover:cursor-pointer">
-            <div className="shadow-md hover:shadow-lg transition-shadow duration-300 rounded-2xl">
-              <img src={product1} alt="product_image" className="w-full rounded-2xl"/>
-            </div>
-            <h2 className="text-base text-gray-800 xl:text-lg font-medium m-3">Bio-repair Rehydrating Serum</h2>
-            <p className="text-gray-500 text-xs md:text-base">Content for Product 1.</p>
-          </div>
+          <div className="relative">
+  {product && (
+   <div
+  className="fixed inset-0 z-30 flex items-center justify-center transition-all duration-700"
+  onClick={() => setProduct(false)}
+>
+  {/* Background Overlay */}
+  <div className="absolute inset-0 bg-black opacity-40"></div>
+
+  {/* Modal Container (clicking inside shouldn't close it) */}
+  <div
+    className="relative z-40 bg-white rounded-2xl shadow-2xl w-[90%] md:w-full max-w-xl xl:max-w-4xl p-6"
+    onClick={(e) => e.stopPropagation()}
+  >
+    {/* Close Button */}
+    <button
+      className="absolute top-2 right-2 text-gray-500 hover:text-black text-xl font-bold"
+      onClick={() => setProduct(false)}
+      aria-label="Close"
+    >
+      &times;
+    </button>
+
+    {/* Modal Content */}
+    <div className="flex flex-col md:flex-row">
+
+    <div className="w-full md:w-[75%] h-80 border border-black">
+    <img className="object-cover"/>
+    </div>
+    
+    <div className="m-0 md:m-4 w-full mx-auto text-center">
+    <h2 className="text-lg md:text-xl font-semibold mb-1">Bio-repair Rehydrating Serum</h2>
+    <h2 className="text-sm md:text-base font-semibold mb-4">₦6500</h2>
+    <p className="text-xs md:text-sm text-gray-700">Detailed information about Product 1 goes here.</p>
+    </div>
+    </div>
+  </div>
+</div>
+  )}
+
+  <div
+    className="text-center hover:cursor-pointer"
+    onClick={() => {
+      setProduct(true);
+      console.log("Product set to true");
+    }}
+  >
+    <div className="shadow-md hover:shadow-lg transition-shadow duration-300 rounded-2xl">
+      <img src={product1} alt="product_image" className="w-full rounded-2xl" />
+    </div>
+    <h2 className="text-base text-gray-800 xl:text-lg font-medium m-3">Bio-repair Rehydrating Serum</h2>
+    <p className="text-gray-500 text-xs md:text-base">Content for Product 1.</p>
+  </div>
+</div>
+
           <div className="text-center hover:cursor-pointer">
             <div className="shadow-md hover:shadow-lg transition-shadow duration-300 mt-7 md:mt-0 rounded-2xl">
               <img src={product2} alt="product_image" className="object-contain rounded-2xl"/>
@@ -252,7 +298,7 @@ export default function Home() {
       </div>
 
       {/* Fourth Section */}
-      <div id="about_us" className="flex flex-col lg:flex-row gap-2 md:w-[80%] xl:w-[65%] md:h-[59rem] lg:h-[36rem] mt-24 md:mt-20 lg:mt-18 md:mb-15 rounded-2xl m-4 md:mx-auto bg-[#f3f2e6]">
+      <div id="about_us" className="flex flex-col lg:flex-row gap-7 md:w-[80%] xl:w-[65%] md:h-[59rem] lg:h-[36rem] mt-24 md:mt-20 lg:mt-18 md:mb-15 rounded-2xl m-4 md:mx-auto bg-[#f3f2e6]">
         <div
           className="
             border border-gray-200 w-full lg:w-[45%] h-[24rem] md:h-full
@@ -262,9 +308,12 @@ export default function Home() {
             lg:rounded-bl-2xl
           "
         >
-          <img src="" alt="products_linedup" className="" />
+          <img src={cream_on_hands} alt="products_linedup" className="w-full h-full object-cover  rounded-2xl
+            lg:rounded-tr-none md:rounded-br-none
+            rounded-bl-none rounded-br-none
+            lg:rounded-bl-2xl" />
         </div>
-        <div className="flex flex-col w-full lg:w-[55%] rounded-2xl md:items-start justify-around text-left p-4 gap-y-10 lg:gap-y-2">
+        <div className="flex flex-col w-full lg:w-[45%] rounded-2xl md:items-start justify-around text-left p-4 gap-y-10 lg:gap-y-2">
           <span>
             <p className="text-sm">
               Happiness guarantee
@@ -425,7 +474,7 @@ export default function Home() {
   <input 
     type="submit" 
     value="Send Message"
-    className="text-sm md:text-lg xl:text-xl text-[#f3f2e6] px-7 py-2 xl:px-14 xl:py-3 font-semibold bg-[#DB8C96] mx-auto rounded-3xl shadow-2xl focus:outline-none focus:ring-2 focus:ring-black hover:cursor-pointer hover:bg-[#dd7d8a] transition-colors duration-300"
+    className="text-sm md:text-lg text-[#f3f2e6] px-7 py-2 xl:px-14 xl:py-3 font-semibold bg-[#DB8C96] mx-auto rounded-3xl shadow-2xl focus:outline-none focus:ring-2 focus:ring-black hover:cursor-pointer hover:bg-[#dd7d8a] transition-colors duration-300"
   />
 </form>
 
@@ -477,14 +526,14 @@ export default function Home() {
       <div className="space-y-2">
         <h4 className="text-sm xl:text-base font-semibold mb-1">Follow Us</h4>
         <div className="flex space-x-4 text-xs xl:text-sm">
-          <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/sophias_secretstg?igsh=MWdhemhxb2VxcjZyNg==" target="_blank" rel="noopener noreferrer">
             <img src="https://cdn-icons-png.flaticon.com/128/2111/2111463.png" alt="Instagram" className="w-5 h-5 xl:w-7 xl:h-7"/>
           </a>
-          <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
-            <img src="https://cdn-icons-png.flaticon.com/128/3046/3046121.png" alt="Facebook" className="w-5 h-5 xl:w-7 xl:h-7"/>
+          <a href="https://www.tiktok.com/@omose.skincare_?_t=ZM-8y9lCgM7Yoi&_r=1" target="_blank" rel="noopener noreferrer">
+            <img src="https://cdn-icons-png.flaticon.com/128/3046/3046121.png" alt="tiktok" className="w-5 h-5 xl:w-7 xl:h-7"/>
           </a>
-          <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
-            <img src="https://cdn-icons-png.flaticon.com/128/1384/1384060.png" alt="Twitter" className="w-6 h-6 xl:w-8 xl:h-8"/>
+          <a href="https://youtube.com/@omoseskincare?si=Ae7MGAZh1NBSTPLU" target="_blank" rel="noopener noreferrer">
+            <img src="https://cdn-icons-png.flaticon.com/128/1384/1384060.png" alt="youtube" className="w-6 h-6 xl:w-8 xl:h-8"/>
           </a>
         </div>
       </div>

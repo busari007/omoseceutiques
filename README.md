@@ -3,7 +3,7 @@
 A **beautiful static landing page** showcasing **ÒmoseCeutiques**, a skincare startup dedicated to high-quality beauty and wellness products.
 This site is designed to present the brand, its mission, offerings, and aesthetic in a clean, modern format.
 
-🌐 **Live Site:** [https://omose-ceutiques.vercel.app/](https://omose-ceutiques.vercel.app/) ([GitHub][1])
+🌐 **Live Site:** [https://omose-ceutiques.vercel.app/](https://omose-ceutiques.vercel.app/)
 
 ---
 
@@ -37,7 +37,7 @@ The site is optimized for clarity, visual design, and performance, providing a u
 
 ## 🚀 Project Structure
 
-Here’s a high-level look at what is inside the repo: ([GitHub][1])
+Here’s a high-level look at what is inside the repo:
 
 ```
 ├── public/                 # Static assets
@@ -71,7 +71,7 @@ Audience first impression and visual clarity are key for a consumer-facing brand
 
 The site is hosted on **Vercel** with automatic builds on push to the repository:
 
-👉 [https://omose-ceutiques.vercel.app/](https://omose-ceutiques.vercel.app/) ([GitHub][1])
+👉 [https://omose-ceutiques.vercel.app/](https://omose-ceutiques.vercel.app/)
 
 ---
 
@@ -82,7 +82,7 @@ The site is hosted on **Vercel** with automatic builds on push to the repository
 
 ---
 
-## 👩‍💻 Author
+## 👩‍💻 Author/Developer
 
 **William Busari**
 Software Developer & Skincare Brand Support

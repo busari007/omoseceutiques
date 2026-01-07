@@ -1,5 +1,3 @@
----
-
 # ÒmoseCeutiques – Skincare Brand Landing Page
 
 A **beautiful static landing page** showcasing **ÒmoseCeutiques**, a skincare startup dedicated to high-quality beauty and wellness products.

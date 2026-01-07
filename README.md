@@ -1,13 +1,92 @@
-# Skincare website for my mother
-# React + Vite
+---
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# ÒmoseCeutiques – Skincare Brand Landing Page
 
-Currently, two official plugins are available:
+A **beautiful static landing page** showcasing **ÒmoseCeutiques**, a skincare startup dedicated to high-quality beauty and wellness products.
+This site is designed to present the brand, its mission, offerings, and aesthetic in a clean, modern format.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🌐 **Live Site:** [https://omose-ceutiques.vercel.app/](https://omose-ceutiques.vercel.app/) ([GitHub][1])
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🌟 Overview
+
+ÒmoseCeutiques is a **startup skincare brand** focused on natural beauty solutions and wellness-oriented cosmetic care. This repository contains the **static website source code**. A polished, responsive frontend built using **React + Vite**, suitable as a marketing homepage or brand showcase.
+
+The site is optimized for clarity, visual design, and performance, providing a user-friendly experience with minimal dependencies.
+
+---
+
+## 📌 Key Features
+
+* **Responsive Static Site** — Works smoothly across desktop, tablet, and mobile
+* **Brand Presentation** — Clean layout for skincare products and company story
+* **Fast Loading** — Lightweight and optimized for performance
+* **Easy to Deploy** — Built with modern tooling and deployed on Vercel
+* **Custom Design** — Tailored visual identity for ÒmoseCeutiques customers
+
+---
+
+## 🧠 Tech Stack
+
+* **Frontend:** ReactJs (JavaScript)
+* **Build Tool:** Vite
+* **Styling:** Tailwind CSS (assumed from project config)
+* **Deployment:** Vercel
+* **Version Control:** Git & GitHub ([GitHub][1])
+
+---
+
+## 🚀 Project Structure
+
+Here’s a high-level look at what is inside the repo: ([GitHub][1])
+
+```
+├── public/                 # Static assets
+├── src/                    # React source code
+│   ├── App.jsx             # Main application
+│   ├── index.css           # Global styles
+│   └── main.jsx            # Entry point
+├── .gitignore
+├── index.html              # HTML template
+├── package.json            # Project metadata & dependencies
+├── tailwind.config.js      # Tailwind CSS config
+├── vite.config.js          # Vite build config
+└── README.md               # This file
+```
+---
+
+## 🖼️ Design & Branding
+
+This static landing page is intended to communicate:
+
+* **Brand mission & values**
+* **Product highlights**
+* **Customer engagement**
+* Clean graphics and user-centred design
+
+Audience first impression and visual clarity are key for a consumer-facing brand like ÒmoseCeutiques.
+
+---
+
+## 📍 Deployment
+
+The site is hosted on **Vercel** with automatic builds on push to the repository:
+
+👉 [https://omose-ceutiques.vercel.app/](https://omose-ceutiques.vercel.app/) ([GitHub][1])
+
+---
+
+## 📌 Notes
+
+* This is **not a full eCommerce platform** — it serves as a **marketing & informational site**
+* Designed to be lightweight & easily customizable
+
+---
+
+## 👩‍💻 Author
+
+**William Busari**
+Software Developer & Skincare Brand Support
+
+---

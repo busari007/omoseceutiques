@@ -1,6 +1,6 @@
-# ÒmoseCeutiques – Skincare Brand Landing Page
+# Eloclaire – Skincare Brand Landing Page
 
-A **beautiful static landing page** showcasing **ÒmoseCeutiques**, a skincare startup dedicated to high-quality beauty and wellness products.
+A **beautiful static landing page** showcasing **Eloclaire**, a skincare startup dedicated to high-quality beauty and wellness products.
 This site is designed to present the brand, its mission, offerings, and aesthetic in a clean, modern format.
 
 🌐 **Live Site:** [[https://eloclaire.com/]](https://eloclaire.com/)
@@ -9,7 +9,7 @@ This site is designed to present the brand, its mission, offerings, and aestheti
 
 ## 🌟 Overview
 
-ÒmoseCeutiques is a **startup skincare brand** focused on natural beauty solutions and wellness-oriented cosmetic care. This repository contains the **static website source code**. A polished, responsive frontend built using **React + Vite**, suitable as a marketing homepage or brand showcase.
+Eloclaire is a **startup skincare brand** focused on natural beauty solutions and wellness-oriented cosmetic care. This repository contains the **static website source code**. A polished, responsive frontend built using **React + Vite**, suitable as a marketing homepage or brand showcase.
 
 The site is optimized for clarity, visual design, and performance, providing a user-friendly experience with minimal dependencies.
 
@@ -71,7 +71,7 @@ Audience first impression and visual clarity are key for a consumer-facing brand
 
 The site is hosted on **Vercel** with automatic builds on push to the repository:
 
-👉 [https://omose-ceutiques.vercel.app/](https://omose-ceutiques.vercel.app/)
+👉 [[https://eloclaire/]](https://eloclaire.com/)
 
 ---
 

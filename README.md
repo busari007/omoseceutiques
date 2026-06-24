@@ -71,7 +71,7 @@ Audience first impression and visual clarity are key for a consumer-facing brand
 
 The site is hosted on **Vercel** with automatic builds on push to the repository:
 
-👉 [[https://eloclaire/]](https://eloclaire.com/)
+👉 [[https://eloclaire.com/]](https://eloclaire.com/)
 
 ---
 

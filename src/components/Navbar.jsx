@@ -31,11 +31,11 @@ export default function Navbar(){
         <div className="border-gray-200 md:w-10 md:h-10 xl:w-12 xl:h-12 rounded-full flex items-center justify-center">
           <img src={logo} alt="omose_logo" className="object-cover rounded-full" />
         </div>
-        <div className="relative">
+        {/* <div className="relative">
           <h1 className="relative z-10 text-base md:text-xl xl:text-3xl font-light whitespace-nowrap text-[#DB8C96] font-libre brand_name">
-            ÒmoseCeutiques
+            Eloclaire
           </h1>
-        </div>
+        </div> */}
       </div>
 
       {/* Nav Links */}

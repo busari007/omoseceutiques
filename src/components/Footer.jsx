@@ -11,7 +11,7 @@ export default function Footer() {
         <div className="w-12 h-12 rounded-full">
           <img src={logo} alt="Logo" className="w-full h-full object-cover rounded-full"/>
         </div>
-        <span className="text-3xl lg:text-4xl font-semibold brand_name text-[#DB8C96]">ÒmoseCeutiques</span>
+        <span className="text-3xl lg:text-4xl font-semibold brand_name text-[#DB8C96]">Eloclaire</span>
       </div>
       <p className="text-sm xl:text-base font-light max-w-md">
         Nature-powered skincare focused on your natural glow. <br/>Every formula, a promise to your face.

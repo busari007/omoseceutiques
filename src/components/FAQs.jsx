@@ -6,17 +6,17 @@ export default function FAQs() {
         {
           question: "Will the products bleach me?",
           answer:
-            "Òmose products don't bleach or whiten. Rather, the products lighten/brighten to within your natural limits. This is because of the presence of exfoliants like lactic acid, brighteners like niacinamide and ingredients that inhibit melanin production like licorice root extract. \nTherefore light skinned Africans will remain light skinned whilst dark skinned Africans will remain dark skinned.",
+            "Eloclaire products don't bleach or whiten. Rather, the products lighten/brighten to within your natural limits. This is because of the presence of exfoliants like lactic acid, brighteners like niacinamide and ingredients that inhibit melanin production like licorice root extract. \nTherefore light skinned Africans will remain light skinned whilst dark skinned Africans will remain dark skinned.",
         },
         {
-          question: "Do Òmose products darken?",
+          question: "Do Eloclaire products darken?",
           answer:
-            "Òmose products are more focused on hydrating the skin, restoring/improving the skin's barrier functions are helping to regulate sebum production. \nAs a result, they don't change skin colour. Naturally light skinned Africans won't be made darker and dark skinned Africans won't be made light.",
+            "Eloclaire products are more focused on hydrating the skin, restoring/improving the skin's barrier functions are helping to regulate sebum production. \nAs a result, they don't change skin colour. Naturally light skinned Africans won't be made darker and dark skinned Africans won't be made light.",
         },
         {
           question: "What are the side effects; acne breakouts for example?",
           answer:
-            "No negative side effects have been recorded from consistent use of Òmose products.\nFirst time users especially those with allergies are encouraged to patch test products before applying. Users with historically reactive skin who opt for the full Òmose routine are advised to ease into it by staggering the implementation of the routine.\nThis is achieved by beginning the routine one product at a time and leaving a gap of 3-4 weeks before another product in the kit is adopted into the routine.",
+            "No negative side effects have been recorded from consistent use of Eloclaire products.\nFirst time users especially those with allergies are encouraged to patch test products before applying. Users with historically reactive skin who opt for the full Eloclaire routine are advised to ease into it by staggering the implementation of the routine.\nThis is achieved by beginning the routine one product at a time and leaving a gap of 3-4 weeks before another product in the kit is adopted into the routine.",
         },
         {
           question: "Must I use all the products?",

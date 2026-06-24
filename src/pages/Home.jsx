@@ -1,11 +1,15 @@
 import Navbar from "../components/Navbar";
 import LandingPage from "./LandingPage";
 
-import product2 from "../assets/images/product2.jpeg";
+import product1 from "../assets/images/product1.png";
+import product2 from "../assets/images/product2.png";
 import product3 from "../assets/images/product3.jpeg";
 import product4 from "../assets/images/product4.jpeg";
 import product5 from "../assets/images/product5.jpeg";
 import product6 from "../assets/images/product6.jpeg";
+import product7 from "../assets/images/product7.jpeg";
+import product8 from "../assets/images/product8.jpeg";
+import product9 from "../assets/images/product9.png";
 import FirstSection from "../components/FirstSection";
 import SecondSection from "../components/SecondSection";
 import FourthSection from "../components/FourthSection";
@@ -38,7 +42,7 @@ export default function Home() {
 
 {/* Bottom line */}
   <div className="text-center mt-10 text-xs text-gray-500">
-    &copy; {new Date().getFullYear()} ÒmoseCeutiques. All rights reserved.
+    &copy; {new Date().getFullYear()} Eloclaire. All rights reserved.
   </div>
     </div>
   );

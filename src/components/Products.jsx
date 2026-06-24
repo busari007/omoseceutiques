@@ -1,18 +1,21 @@
 import { useState } from "react";
-import product1 from "../assets/images/product1.jpeg";
-import product2 from "../assets/images/product2.jpeg";
+import product1 from "../assets/images/product1.png";
+import product2 from "../assets/images/product2.png";
 import product3 from "../assets/images/product3.jpeg";
 import product4 from "../assets/images/product4.jpeg";
 import product5 from "../assets/images/product5.jpeg";
 import product6 from "../assets/images/product6.jpeg";
+import product7 from "../assets/images/product7.jpeg";
+import product8 from "../assets/images/product8.jpeg";
+import product9 from "../assets/images/product9.png";
 
 export default function Products() {
   const [product, setProduct] = useState(null);
 
-  const items = [
+  const items = [ 
     {
-      name: "Bio-repair Rehydrating Serum",
-      price: "₦8000",
+      name: "2-3-5 Rehydrating Serum",
+      price: "₦16,500",
       description: `<strong>Product description:</strong> <br/>A Vitamin C and antioxidant rich serum that is completely oil-free. Despite being oil-free, consistent daily use results in the dewy look. It has a gel consistency and the colour of blood.<br><br>
 
 <strong>Ingredients:</strong><br>
@@ -27,7 +30,7 @@ Apply 4 drops on your face immediately after using the toner.
     },
     {
       name: "Barrier Repair Toner",
-      price: "₦4000",
+      price: "₦9,500",
       description:
         `
 <strong>Product description:</strong><br>
@@ -45,8 +48,8 @@ Please note, the toner contains NO alcohol or synthetic fragrance.
       image: product3,
     },
     {
-      name: "Repair Face Milk",
-      price: "₦5000",
+      name: "Moisturising Repair Milk",
+      price: "₦9,500",
       description:
         `
 <strong>Product description:</strong><br>
@@ -73,8 +76,8 @@ A sufficient quantity is applied immediately after applying the Òmose serum. Al
       image: product2,
     },
     {
-      name: "Facial gel cleanser (big size)",
-      price: "₦8000",
+      name: "Gentle Gel cleanser",
+      price: "₦16,500",
       description:
         `
 <strong>Product description:</strong><br>
@@ -105,6 +108,55 @@ Apply a little quantity to your wet face and pass it all over; including your ne
       description:
         "The small size is travel friendly because it is small enough to pass through customs at any international airport.",
       image: product4,
+    },
+      {
+      name: "Acne Cleanser",
+      price: "₦16,500",
+      description:
+        `
+<strong>Product description:</strong><br>
+A non-foaming exfoliating gel cleanser for anyone fatigued of rough skin.<br>
+
+This Acne Cleanser effectively tackles non-inflammatory acne <br>
+
+i.e. black and white heads, tiny pimples on the forehead, cheeks and chin due to the presence of salicylic acid;<br>
+
+a powerfully effective ingredient that works by dissolving the sebum that clogs the pores and increasing skin cell turnover by increasing the rate desquamation.<br><br>
+
+<strong>Ingredients:</strong><br>
+1. Salicylic acid (2%): a beta-hydroxy acid that dissolve sebum and increases the rate at which new skin cells rise to become visible.<br><br>
+2. Lactic acid: an alpha-hydroxy acid that increases the skin's capacity to draw in and hold onto moisture. It helps improve the skin's firmness and appearance<br><br>
+3. Aloe vera: a hydrating substance rich in anti-inflammatory properties that calms the skin down and reduces redness and sensibilities.<br><br>
+
+<strong>How to use:</strong><br>
+Wash your face with the Acne Cleanser every evening only; making sure to avoid the eye area. Rinse off immediately afterwards with warm to cool water and moisturise at once.
+`,
+      image: product9,
+    },
+    {
+      name: "Hydrating Glow Kit",
+      price: "₦35,000",
+      description:
+        `
+<strong>A brightening combo package comprising:</strong><br>
+1. Gentle gel cleanser<br>
+2. Barrier Repair Toner<br>
+3. 2-3-5 Rehydrating Serum<br>
+4. Moisturising Repair Milk<br><br>`,
+      image: product7,
+    },
+    {
+      name: "Acne Kit (non-inflammatory)",
+      price: "₦40,000",
+      description:
+        `
+<strong>A combo package that targets tiny pimples, comprising:</strong><br>
+1. Acne cleanser<br>
+2. Gentle gel cleanser<br>
+3. Barrier Repair Toner<br>
+4. 2-3-5 Rehydrating Serum<br>
+5. Moisturising Repair Milk<br><br>`,
+      image: product8,
     },
   ];
 

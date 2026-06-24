@@ -3,7 +3,7 @@
 A **beautiful static landing page** showcasing **ÒmoseCeutiques**, a skincare startup dedicated to high-quality beauty and wellness products.
 This site is designed to present the brand, its mission, offerings, and aesthetic in a clean, modern format.
 
-🌐 **Live Site:** [https://omose-ceutiques.vercel.app/](https://omose-ceutiques.vercel.app/)
+🌐 **Live Site:** [[https://eloclaire.com/]](https://eloclaire.com/)
 
 ---
 
